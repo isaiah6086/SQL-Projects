@@ -107,4 +107,4 @@ AND order_id <> 'Order ID'
 SELECT Product, SUM (quantity*price) 
 FROM BIT_DB.JanSales
 GROUP BY Product 
-ORDER BY SUM (quantity*price) DESC LIMIT 4
+ORDER BY SUM (quantity*price) DESC LIMIT 1
